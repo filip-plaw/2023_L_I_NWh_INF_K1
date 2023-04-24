@@ -23,8 +23,4 @@ ADD main.py $APP_DIR
   
 
 CMD PYTHONPATH=$PYTHONPATH:/usr/src/hello_world_printer \ 
-<<<<<<< HEAD
 FLASK_APP=hello_world flask run --host=0.0.0.0
-=======
-FLASK_APP=hello_world flask run --host=0.0.0.0
->>>>>>> 384aca446a93ea58edfd87c5dfb4fa56c11da632
